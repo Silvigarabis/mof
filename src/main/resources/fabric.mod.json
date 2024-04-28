@@ -1,0 +1,28 @@
+{
+   "schemaVersion": 1,
+   "id": "sil_mof",
+   "version": "${version}",
+   "name": "Mofmod",
+   "description": "",
+   "authors": [
+      "Silvigarabis"
+   ],
+   "contact": {
+      "homepage": "https://github.com/Silvigarabis/mof",
+      "sources": "https://github.com/Silvigarabis/mof"
+   },
+   "license": "MIT",
+   "icon": "assets/sil_mof/pack_icon.png",
+   "environment": "*",
+   "entrypoints": {
+      "main": [
+         "me.silvigarabis.modmof.Mof"
+      ]
+   },
+   "mixins": [],
+   "depends": {
+      "fabricloader": ">=${loader_version}",
+      "minecraft": "~${minecraft_version}",
+      "java": ">=17"
+   }
+}
